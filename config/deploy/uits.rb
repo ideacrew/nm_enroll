@@ -13,7 +13,7 @@ role :db, %w{nginx@172.30.1.42}
 # This can be used to drop a more detailed server definition into the
 # server list. The second argument is a, or duck-types, Hash and is
 # used to set extended properties on the server.
-set :branch, "master"
+set :branch, "uits_demo"
 
 # Custom SSH Options
 # ==================
