@@ -1,8 +1,7 @@
 .container.home.module.welcome#welcome
   br
   h1.no-buffer#nm_title
-    strong
-      = l10n('.welcome_to_site_name', short_name: Settings.site.short_name)
+    strong Welcome to UITS
   br
   - if user_signed_in?
     strong
